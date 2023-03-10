@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BPI Currency Converter</string>
+    <string name="spinner_prompt">Select a currency</string>
+    <string name="usd">USD</string>
+    <string name="gbp">GBP</string>
+    <string name="eur">EUR</string>
+    <string name="convert_button">Convert</string>
+    <string name="bitcoin_current_price">Bitcoin Current price:</string>
+    <string name="convert_result">Result:</string>
+    <string name="convert_description">To convert the value of a currency to BTC</string>
+    <string name="result_text">Result:</string>
+    <string name="btc">BTC</string>
+    <string name="btc_currency">BTC</string>
+    <string name="countdown">Countdown</string>
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>GBP</item>
+        <item>EUR</item>
+    </string-array>
+    <string name="dollar_sign">$</string>
+    <string name="pound_sign">£</string>
+    <string name="euro_sign">€</string>
+    <string name="code">Code</string>
+    <string name="rate">Rate</string>
+    <string name="rate_float">Rate Float</string>
+    <string name="symbol">Symbol</string>
+    <string name="code_currency">Code</string>
+    <string name="name_currency">Name</string>
+    <string name="rate_currency">Rate</string>
+    <string name="symbol_currency">Symbol</string>
+    <string name="time_currency">Time</string>
+</resources>
