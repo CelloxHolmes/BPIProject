@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

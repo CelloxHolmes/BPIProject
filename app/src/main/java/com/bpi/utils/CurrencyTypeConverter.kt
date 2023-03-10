@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.utils
 
 import androidx.room.TypeConverter
 import com.bpi.model.Currency

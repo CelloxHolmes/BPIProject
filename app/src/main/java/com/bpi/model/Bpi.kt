@@ -5,8 +5,8 @@ import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
-import com.bpi.CurrencyTypeConverter
-import com.bpi.DateTypeConverter
+import com.bpi.utils.CurrencyTypeConverter
+import com.bpi.utils.DateTypeConverter
 import java.util.*
 
 @Entity(tableName = "bpi_table")

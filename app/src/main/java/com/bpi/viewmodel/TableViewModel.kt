@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,6 +14,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
 import androidx.lifecycle.ViewModelProvider
+import com.bpi.R
+import com.bpi.viewmodel.BpiViewModel
 import java.text.SimpleDateFormat
 import java.util.*
 

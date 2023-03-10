@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.activity
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bpi.utils.BpiAdapter
 import com.bpi.databinding.FragmentBpiHistoryBinding
+import com.bpi.viewmodel.BpiViewModel
 
 class BpiHistoryFragment : Fragment() {
 

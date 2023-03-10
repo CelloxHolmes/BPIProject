@@ -1,4 +1,4 @@
-package com.bpi
+package com.bpi.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,10 +7,12 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.bpi.R
 import com.bpi.databinding.ActivityMainBinding
 import com.bpi.model.Bpi
 import com.bpi.network.CoinDeskApi
 import com.bpi.network.CoinDeskApiImpl
+import com.bpi.viewmodel.BpiViewModel
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

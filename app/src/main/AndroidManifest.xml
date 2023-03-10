@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
         <activity
-            android:name="com.bpi.MainActivity"
+            android:name="com.bpi.activity.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -24,7 +24,7 @@
         </activity>
 
         <activity
-            android:name="com.bpi.TableActivity"
+            android:name="com.bpi.activity.TableActivity"
             android:label="Table Activity" />
 
     </application>
