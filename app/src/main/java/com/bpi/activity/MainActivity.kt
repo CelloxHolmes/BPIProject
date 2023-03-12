@@ -44,7 +44,23 @@ class MainActivity : AppCompatActivity() {
         fetchBpiData()
 
         binding.buttonConvert.setOnClickListener {
-            val amount = binding.editAmount.text.toString().toDouble()
+            val amountStr = binding.editAmount.text.toString()
+            if (amountStr.isEmpty()) {
+                binding.editAmount.error = "Amount is required"
+                return@setOnClickListener
+            }
+
+            val amount = amountStr.toDoubleOrNull()
+            if (amount == null) {
+                binding.editAmount.error = "Invalid amount"
+                return@setOnClickListener
+            }
+
+            if (amount <= 0) {
+                binding.editAmount.error = "Amount must be greater than zero"
+                return@setOnClickListener
+            }
+
             val selectedCurrency = binding.spinnerCurrency.selectedItem.toString()
 
             when (selectedCurrency) {
@@ -67,7 +83,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     @SuppressLint("SetTextI18n")
-    private fun fetchBpiData() {
+    fun fetchBpiData() {
         CoroutineScope(Dispatchers.Main).launch {
             withContext(Dispatchers.IO) {
                 val call = coinDeskApi.getBpi()
